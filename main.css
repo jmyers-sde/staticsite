@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Part of Page */
+
+#top {
+    height: 130vh;
+    background-color: blueviolet;
+}
+
+nav {
+    background-color: green;
+    opacity: .9;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mainLogo img{
+    margin-top: 15px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+#mainLogo img:hover{
+    height: 75px;
+}
+
+ul li {
+    font-size: 20px;
+    display: inline;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#openKast {
+    border: white 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#openKast:hover {
+    padding: 7px;
+}
+
+/* Bottom of the top half */
+
+#bottomTop {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 15%;
+}
+
+#bottomTop h1 {
+    font-size: 60px;
+    margin-top: 25px;
+}
+
+#bottomTop p {
+    font-size: 20px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 25px;
+}
+
+button {
+    height: 50px;
+    width: 115px;
+    margin-top: 25px;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+/* Bottom Part */
+
+#bottom {
+    text-align: center;
+    height: 50vh;
+    padding-top: 50px;
+}
+
+#logos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#logos p {
+    width: 300px;
+    margin: 25px;
+}
+
+#bottom h4 {
+    margin-top: 25px;
+}
